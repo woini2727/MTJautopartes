@@ -358,9 +358,19 @@ h6, .h6 {
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3.5em;
   font-weight: 300;
   line-height: 1.2; }
+
+@media (max-width: 768px) {
+  .display-4{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+
+
+}
 
 hr {
   margin-top: 1.5rem;
